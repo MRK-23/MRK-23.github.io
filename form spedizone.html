@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form spedizione</title>
+</head>
+<body>
+<form id="delivery" autocomplete="on"><!--Prima di id indicare il metod di tipo GET o POST (il più usato)-->
+
+  <div>
+  <div style="display: inline"><label for="name">Nome</label></div>
+  <div style="display: inline"><input type="text" name="name" id="name" placeholder="Nome" required></div>
+  </div>
+
+  <div>
+  <div style="display: inline"><label for="lastname">Cognome</label></div>
+  <div style="display: inline"><input type="text" name="lastname" id="lastname" placeholder="Cognome" required></div>
+  </div>
+
+  <div>
+  <div style="display: inline"><label for="adress">Indirizzo</label></div>
+  <div style="display: inline"><input type="adress" name="adress" id="adress" placeholder="Indirizzo" required></div>
+  </div>
+
+  <div>
+  <div style="display: inline"><label for="po">Civico</label></div>
+  <div style="display: inline"><input type="po" name="po" id="po" placeholder="Civico" required></div>
+  </div>
+
+  <div>
+    <div style="display: inline"><label for="cap">CAP</label></div>
+    <div style="display: inline"><input type="cap" name="cap" id="cap" placeholder="CAP" required></div>
+  </div>
+
+  <div>
+    <div style="display: inline"><label for="city">Comune</label></div>
+      <div style="display: inline"><input type="city" name="city" id="city" placeholder="Città" required></div>
+  </div>
+
+  <label for="province">Provincia</label>
+  <select name="province" id="province" required>
+    <option value="MI">Milano</option>
+    <option value="TO">Torino</option>
+    <option value="RM">Roma</option>
+    <option value="Other" selected>Altro</option>
+  </select>
+
+  <label for="phone">Telefono</label>
+  <input type="phone" name="phone" id="phone" placeholder="Tel">
+
+  <label for="mail">Email</label>
+  <input type="mail" name="mail" id="mail" placeholder="La tua Mail" required>
+
+  <label for="Note"></label>
+  <input> <textarea name="note" id="note" cols="30" rows="10">Note</textarea>
+
+  <button type="submit">Invia
+
+</form>
+
+<button type=reset form="delivery">Reset</button>
+
+
+</body>
+</html>
