@@ -1,0 +1,9 @@
+/*Regola di stile su h1*/
+h1{
+    /*Size del font*/
+    font-size: 24px;
+    color: red;
+}
+h2{
+    color: orange;
+}
