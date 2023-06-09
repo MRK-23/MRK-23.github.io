@@ -1,9 +1,10 @@
 /*Regola di stile su h1*/
 h1{
     /*Size del font*/
-    font-size: 24px;
+    font-size: 45px;
     color: red;
 }
 h2{
-    color: orange;
+    font-size: 45px;
+    color: #0048ff;
 }

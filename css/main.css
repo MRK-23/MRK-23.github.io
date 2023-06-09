@@ -1,2 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200&display=swap');
 body{font-family: 'Work Sans', sans-serif;}
+
+body {
+    color: black;
+    background-color: aqua;
+    background-image: url("image3.png");
+    background-attachment: fixed;
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
+    /*background-position-x: right;*/
+    /*background-position-y: bottom;*/
+
+}
+
+h1,h2,h3,h4,h5,h6{font-weight: unset}
+
+
+header {
+    background-image:
+            url("image2.png");
+
+    background-clip: padding-box;
+    margin: 60px;
+    border: dotted 5px red;
+    border-radius: 50%;
+    padding: 100px;
+    width: 500px;
+    height: 500px;
+    border-image: repeat space;
+
+
+}
