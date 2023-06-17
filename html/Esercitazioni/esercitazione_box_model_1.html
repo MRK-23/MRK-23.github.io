@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Esercitazione sul box model sul Box Model 1</title>
+    <style>
+
+        body{
+            margin: 5px;
+            background-color: red;
+        }
+        .conteiner1{
+            max-width: 1000px;
+            color: white;
+            background-color: green;
+            padding: 0px;
+        }
+        .conteiner2{
+            max-width: 1000px;
+            background-color: white;
+            padding: 0px;
+        }
+        .conteiner3{
+            max-width: 1000px;
+            color: white;
+            background-color: blue;
+            padding: 30px;
+        }
+        .conteiner4{
+            max-width: 1000px;
+            background-color: white;
+            padding: 30px;
+        }
+
+        .float-elements{
+            float: left;
+            border: 5px solid black;
+            margin: 5px;
+            height: 300px;
+        }
+      
+        .conteiner1{
+            box-sizing: border-box;
+            width: calc(70% - 20px);
+        }
+        .conteiner2{
+            box-sizing: border-box;
+            width: calc(30%);
+        }
+        .conteiner3{
+            box-sizing: border-box;
+            width: calc(70% - 20px);
+        }
+        .conteiner4{
+            box-sizing: border-box;
+            width: calc(30%);
+        }
+    </style>
+</head>
+<body>
+
+<div class="conteiner1 float-elements">
+    Elemento Float 70%
+</div>
+<div class="conteiner2 float-elements">
+    Elemento Float 30%
+</div>
+<div class="conteiner3 float-elements">
+    Elemento Float 70%
+</div>
+<div class="conteiner4 float-elements">
+    Elemento Float 30%
+</div>
+<div class="clearfix"></div>
+</body>
+</html>
