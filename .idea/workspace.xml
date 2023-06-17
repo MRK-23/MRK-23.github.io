@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8578538c-2d67-481a-a12d-f42eb8b2d50c" name="Changes" comment="Commit">
-      <change afterPath="$PROJECT_DIR$/css/orange.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/Esercitazioni/apple.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/Esercitazioni/esercitazione_box_model_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/Esercitazioni/esercitazione_box_model_2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/heading.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/heading.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/example/recipe.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/Esercitazioni/recipe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/example/recipe2.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/Esercitazioni/recipe2.html" afterDir="false" />
-    </list>
+    <list default="true" id="8578538c-2d67-481a-a12d-f42eb8b2d50c" name="Changes" comment="Commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,9 +43,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/html/Esercitazioni" />
-      <recent name="$PROJECT_DIR$/css" />
       <recent name="$PROJECT_DIR$/html" />
+      <recent name="$PROJECT_DIR$/html/Esercitazioni html" />
+      <recent name="$PROJECT_DIR$/css" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/html/Esercitazioni" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -77,7 +69,7 @@
       <workItem from="1686494879367" duration="5256000" />
       <workItem from="1686556717981" duration="3112000" />
       <workItem from="1686914133423" duration="17048000" />
-      <workItem from="1687013157596" duration="5951000" />
+      <workItem from="1687013157596" duration="6402000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1685205257777</created>
@@ -142,7 +134,21 @@
       <option name="project" value="LOCAL" />
       <updated>1686326672802</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Commit">
+      <created>1687019225645</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1687019225645</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Commit">
+      <created>1687019573835</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1687019573835</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
