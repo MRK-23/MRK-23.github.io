@@ -1,18 +1,20 @@
 /*Regola di stile in h1*/
 h1{
     /*Size del font*/
-    font-size: 25px;
-    font-weight: bolder;
-    color: black;
-    margin-top: 50px;
-    margin-left: 3px;
-    margin-right: 3px;
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Kablammo&family=Kalam:wght@700&family=Work+Sans:wght@200&display=swap');
+    font-size: 40px;
+    color: #3A2F4D;
+    position: relative;
+    top: 8px;
+    left: 360px;
+
 }
 h2{
-    font-size: 15px;
-    font-weight: bolder;
-    color: black;
-    margin-top: 1px;
-    margin-left: 3px;
-    margin-right: 3px;
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Kablammo&family=Kalam:wght@400;700&family=Work+Sans:wght@200&display=swap');
+    font-size: 25px;
+    color: #3A2F4D;
+    position: relative;
+    top: -35px;
+    left: 360px;
+
 }

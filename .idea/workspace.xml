@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8578538c-2d67-481a-a12d-f42eb8b2d50c" name="Changes" comment="Commit" />
+    <list default="true" id="8578538c-2d67-481a-a12d-f42eb8b2d50c" name="Changes" comment="Commit">
+      <change afterPath="$PROJECT_DIR$/css/Esercitazioni/floated layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/zen.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/heading.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/heading.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,11 +49,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/css" />
+      <recent name="$PROJECT_DIR$/css/Esercitazioni" />
       <recent name="$PROJECT_DIR$/html" />
       <recent name="$PROJECT_DIR$/html/Esercitazioni html" />
-      <recent name="$PROJECT_DIR$/css" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/html/Esercitazioni" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -69,7 +75,9 @@
       <workItem from="1686494879367" duration="5256000" />
       <workItem from="1686556717981" duration="3112000" />
       <workItem from="1686914133423" duration="17048000" />
-      <workItem from="1687013157596" duration="6402000" />
+      <workItem from="1687013157596" duration="6486000" />
+      <workItem from="1687019694165" duration="44000" />
+      <workItem from="1687165640140" duration="12877000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1685205257777</created>
@@ -148,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687019573835</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Commit">
+      <created>1687019645783</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1687019645783</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
