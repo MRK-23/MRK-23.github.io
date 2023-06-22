@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8578538c-2d67-481a-a12d-f42eb8b2d50c" name="Changes" comment="Commit">
-      <change afterPath="$PROJECT_DIR$/css/Esercitazioni/floated layout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/zen.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/Esercitazioni/floatedstyle.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/heading.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/heading.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/Esercitazioni/floated layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/css/Esercitazioni/floated layout.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +76,7 @@
       <workItem from="1687013157596" duration="6486000" />
       <workItem from="1687019694165" duration="44000" />
       <workItem from="1687165640140" duration="12877000" />
+      <workItem from="1687433629923" duration="7070000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1685205257777</created>
@@ -163,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687019645783</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Commit">
+      <created>1687433643810</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1687433643810</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

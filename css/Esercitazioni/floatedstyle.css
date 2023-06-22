@@ -1,0 +1,92 @@
+/*FONDATION*/
+
+:root{
+    box-sizing: border-box;
+}
+
+    *,
+    ::after,
+    ::before {
+        box-sizing: inherit;
+    }
+    body *+* {
+        margin-top: 1.5em;
+
+    }
+
+/*GENERIC RULES*/
+
+    body{
+        background-color: darkgray;
+        font-family: Arial sans-serif;
+    }
+    header, footer{
+        background-color: dodgerblue;
+        color: white;
+        padding: 1.5em;
+        border-radius: 1em;
+    }
+footer{
+    font-size: medium;
+}
+    main{
+        background-color: white;
+        padding: 0 1.5em 1.5em 1.5em;
+    }
+main,
+header,
+footer,
+article{
+    border-radius: 1em;
+}
+article h3{
+    margin: 0;
+}
+/*LAYOUT*/
+/*DOUBLE CONTEINER PATTERN*/
+.container{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+article{
+    float: left;
+    width: 50%
+}
+/*CLEARFIX*/
+section::after{
+    display: block;
+    content: "";
+    clear: both;
+}
+/*ARTICLE*/
+main section div article:first-child{
+    margin-top: 1.5em;
+}
+main section div article:nth-child(2n+1) {
+    margin-right: 1.5em;
+}
+main section div article{
+    width: calc(50% - (1.5em / 2));
+}
+article{
+    background-color: lightgrey;
+    padding: 1.5em;
+}
+/*SECTION MARGIN COLLAPSING PROBLEM*/
+section::before{
+    display: table;
+    content: "";
+}
+section div article:nth-child(2n+1){
+    clear: left;
+}
+/*INTERNAL ARTICLE*/
+section div article img{
+    float: left;
+    margin-right: 1.5em;
+    margin-bottom: 1em;
+}
+section div article p{
+    overflow: auto;
+    text-align: justify;
+}
