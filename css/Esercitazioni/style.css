@@ -1,0 +1,79 @@
+:root{
+    box-sizing: border-box;
+}
+*,
+::before,
+::after{
+    box-sizing: inherit;
+}
+body *+*{
+    margin-top: 1.5em;
+}
+.container{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+/*
+CUSTOM CSS
+ */
+body{
+     background-color: #709b90;
+     font-family: calibri, sans-serif;
+ }
+/*
+NAV SECTION
+ */
+ul.site-nav{
+    display:flex;
+    padding: .5em;
+    list-style-type: none;
+    background-color: saddlebrown;
+    border-radius: .5em;
+}
+ul.site-nav > li{
+    margin-top: 0;
+}
+ul.site-nav > li > a{
+    display: block;
+    padding: 5em 1em;
+    background-color: orangered;
+    color: white;
+    text-decoration: underline;
+}
+ul.site-nav > li > a:hover{
+    background-color: red;
+}
+ul.site-nav >li +li{
+    margin-left: .5em;
+}
+ul.site-nav > .nav-right{
+    margin-left: auto;
+}
+/*
+MAIN
+ */
+/*FLEX CONTAINER
+*/
+main{
+    display: flex;
+}
+/*
+FLEX ITEMS
+ */
+main > *+*{
+    margin-top: 0;
+    margin-left: 1.5em;
+}
+.tile{
+    background-color: white;
+    padding: 1.5em;
+}
+.tile :first-child{
+    margin-top: 0;
+}
+.column-main{
+    flex: 3;
+}
+.column-sidebar{
+    flex: 1;
+}
