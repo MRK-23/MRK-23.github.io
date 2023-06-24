@@ -1,3 +1,6 @@
+/*
+INITIAL SETTING
+ */
 :root{
     box-sizing: border-box;
 }
@@ -35,7 +38,7 @@ ul.site-nav > li{
 }
 ul.site-nav > li > a{
     display: block;
-    padding: 5em 1em;
+    padding: 1em .5em;
     background-color: orangered;
     color: white;
     text-decoration: underline;
@@ -77,3 +80,56 @@ main > *+*{
 .column-sidebar{
     flex: 1;
 }
+.column-sidebar{
+    display: flex;
+    flex-direction: column;
+}
+.column-sidebar > .tile{
+    flex: 1;
+}
+/*
+SIDEBAR
+ */
+
+.tile form h3{
+    margin: 0;
+    font-size: .9em;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: right;
+}
+.tile form label{
+    display: block;
+    text-align: left;
+    font-weight: bold;
+}
+.tile form input [type="text"], .login-form input [type="password"]{
+display: block;
+width: 100%;
+margin-top: 0;
+border: 1px solid red;
+padding: .5em 1em;
+}
+.centered{
+    text-align: center;
+}
+.cost{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: .7em;
+}
+.cost > span{
+    margin-top: 0;
+}
+.cost-currency{
+    font-size: 2em;
+}
+.cost-dollars{
+    font-size: 4em;
+}
+.cost-cents{
+    font-size: 1em;
+    align-self: flex-start;
+}
+
