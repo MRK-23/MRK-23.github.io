@@ -91,19 +91,19 @@ main > *+*{
 SIDEBAR
  */
 
-.tile form h3{
+.login-form form h3{
     margin: 0;
     font-size: .9em;
     font-weight: bold;
     text-transform: uppercase;
     text-align: right;
 }
-.tile form label{
+.login-form label{
     display: block;
     text-align: left;
     font-weight: bold;
 }
-.tile form input [type="text"], .login-form input [type="password"]{
+.login-form input [type="text"], .login-form input [type="password"]{
 display: block;
 width: 100%;
 margin-top: 0;
