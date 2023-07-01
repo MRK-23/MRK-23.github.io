@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Grid Area</title>
+    <style>
+        body{
+            font-family: -apple-system sans-serif;
+        }
+        .container{
+            margin: 0 auto;
+            max-width: 1080px;
+        }
+        .container > *{
+            background-color: darkorange;
+            border-radius: .5em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 2em;
+        }
+
+        /*
+        GRID AREA
+         */
+
+        .container{
+            display: grid;
+            grid-template-areas: "header header"
+                                    "nav nav"
+                                    "main sidebar1"
+                                    "main sidebar2";
+            grid-template-columns: 3fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+            grid-gap: .5em;
+        }
+        .a{
+            grid-column: main;
+            grid-row: main;
+            background-color: red;
+        }
+        .b{
+            grid-column: header;
+            grid-row: header;
+            background-color: blue;
+        }
+        .c{
+            grid-column: nav;
+            grid-row: nav;
+            background-color: darkviolet;
+        }
+        .d{
+            grid-column: sidebar1;
+            grid-row: sidebar1;
+            background-color: white;
+        }
+        .e{
+            grid-column: sidebar2;
+            grid-row: sidebar2;
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="a">a</div>
+    <div class="b">b</div>
+    <div class="c">c</div>
+    <div class="d">d</div>
+    <div class="e">e</div>
+</div>
+
+</body>
+</html>

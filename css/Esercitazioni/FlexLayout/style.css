@@ -84,12 +84,12 @@ main > *+*{
     display: flex;
     flex-direction: column;
 }
-.column-sidebar > .tile{
-    flex: 1;
-}
 /*
 SIDEBAR
  */
+.column-sidebar > .tile{
+    flex: 1;
+}
 
 .login-form form h3{
     margin: 0;
@@ -113,6 +113,10 @@ padding: .5em 1em;
 .centered{
     text-align: center;
 }
+.special-offer{
+    display: flex;
+    flex-direction: column;
+}
 .cost{
     display: flex;
     justify-content: center;
@@ -121,6 +125,11 @@ padding: .5em 1em;
 }
 .cost > span{
     margin-top: 0;
+    line-height: .6;
+}
+.cost{
+    margin-top: auto;
+    padding: 1.5em 0;
 }
 .cost-currency{
     font-size: 2em;
@@ -131,5 +140,13 @@ padding: .5em 1em;
 .cost-cents{
     font-size: 1em;
     align-self: flex-start;
+}
+.cta-button{
+    display: block;
+    width: 100%;
+    margin-top: auto;
+    text-decoration: none;
+    padding: .5em 1em;
+    background-color: darkorange;
 }
 
