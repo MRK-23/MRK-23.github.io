@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8578538c-2d67-481a-a12d-f42eb8b2d50c" name="Changes" comment="Commit" />
+    <list default="true" id="8578538c-2d67-481a-a12d-f42eb8b2d50c" name="Changes" comment="Commit">
+      <change afterPath="$PROJECT_DIR$/css/Esercitazioni/GridLayout/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/Esercitazioni/GridLayout/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/Esercitazioni/display-flex_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Esercitazioni/FlexLayout/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/Esercitazioni/floated layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/css/Esercitazioni/FloatLayout/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/Esercitazioni/floatedstyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Esercitazioni/FloatLayout/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/Esercitazioni/index_display-flex.html" beforeDir="false" afterPath="$PROJECT_DIR$/css/Esercitazioni/FlexLayout/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,11 +51,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/css/Esercitazioni/FloatLayout" />
+      <recent name="$PROJECT_DIR$/css/Esercitazioni/FlexLayout" />
       <recent name="$PROJECT_DIR$/css" />
       <recent name="$PROJECT_DIR$/css/Esercitazioni" />
       <recent name="$PROJECT_DIR$/html" />
-      <recent name="$PROJECT_DIR$/html/Esercitazioni html" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -75,6 +83,13 @@
       <workItem from="1687433629923" duration="7508000" />
       <workItem from="1687527283591" duration="10176000" />
       <workItem from="1687610038830" duration="3997000" />
+      <workItem from="1687625597589" duration="210000" />
+      <workItem from="1687625851648" duration="133000" />
+      <workItem from="1687679738316" duration="425000" />
+      <workItem from="1687758262319" duration="132000" />
+      <workItem from="1687767856319" duration="561000" />
+      <workItem from="1687960341503" duration="4575000" />
+      <workItem from="1688208934892" duration="7000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1685205257777</created>
@@ -188,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687620206255</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Commit">
+      <created>1687625764322</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1687625764322</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
