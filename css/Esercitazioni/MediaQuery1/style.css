@@ -11,6 +11,11 @@
 /*
 GLOBAL MOBILE FIRST
  */
+
+figure{
+    --my-custom: white; /*ESEMPIO DI (VARIABILE CUSTOM PROPERTIES)*/
+}
+
 body{
     font-family: -apple-system, sans-serif;
     font-size: 1.2em;
@@ -27,7 +32,7 @@ h2{
 figure{
     background-color: black;
     border-radius: .4em;
-    color: white;
+    color: var(--my-custom); /*ESEMPIO DI VARIABILE (CUSTOM PROPERTIES)*/
     padding: .8em;
     text-align: center;
     margin: 0 0 .9em 0;
