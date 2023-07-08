@@ -1,0 +1,16 @@
+@import "variables";
+
+#zen-intro{
+  a{
+    color: $brand-color;
+    margin: $spacing + .5em;
+
+    &:active{
+      color: $brand-dark-color;
+    }
+
+    &:hover{
+      color: $brand-light-color;
+    }
+  }
+}

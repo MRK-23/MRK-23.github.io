@@ -1,0 +1,68 @@
+#zen-intro a {
+  color: #008000;
+  margin: 2em;
+}
+#zen-intro a:active {
+  color: #033403;
+}
+#zen-intro a:hover {
+  color: #a3e5a3;
+}
+
+section {
+  background-color: red;
+}
+section::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.elm1::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #008000;
+  padding: 1.5em;
+}
+
+.nav-links > li:nth-child(1) {
+  padding: 1.5em;
+}
+
+.nav-links > li:nth-child(2) {
+  padding: 3em;
+}
+
+.nav-links > li:nth-child(3) {
+  padding: 4.5em;
+}
+
+.nav-links > li:nth-child(4) {
+  padding: 6em;
+}
+
+.nav-links > li:nth-child(5) {
+  padding: 7.5em;
+}
+
+.nav-links > li:nth-child(6) {
+  padding: 9em;
+}
+
+.nav-links > li:nth-child(7) {
+  padding: 10.5em;
+}
+
+.nav-links > li:nth-child(8) {
+  padding: 12em;
+}
+
+.nav-links > li:nth-child(9) {
+  padding: 13.5em;
+}
+
+/*# sourceMappingURL=style.css.map */
