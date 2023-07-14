@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap via Webstorm</title>
+  <link href="../asset/bootstrap/css/bootstrap.min.css" rel="stylesheet"><!--MIN versione minimizzata (più leggere, ottimizzata), senza MIN versione di sviluppo-->
+<style>
+  .row > div:nth-child(1){
+    background-color: orangered;
+  }
+  .row > div:nth-child(2){
+    background-color: green;
+  }
+  .row > div:nth-child(3){
+    background-color: yellow;
+  }
+</style>
+</head>
+<body>
+<div class="container text-center">
+  <div class="row justify-content-md-center">
+    <div class="col col-lg-2">
+      1 of 3
+    </div>
+    <div class="col-md-auto">
+      Variable width content
+    </div>
+    <div class="col col-lg-2">
+      3 of 3
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      1 of 3
+    </div>
+    <div class="col-md-auto">
+      Variable width content
+    </div>
+    <div class="col col-lg-2">
+      3 of 3
+    </div>
+  </div>
+</div>
+<script src="../asset/bootstrap/js/bootstrap.min.js"></script>
+
+</body>
+</html>
