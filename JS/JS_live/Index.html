@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS_Tour</title>
+</head>
+<body>
+
+<script>
+
+    //Esercizio 1
+
+    var a, b, c, d, e;
+
+    a = 1;
+    b = 2;
+    c = 3;
+    d = 4;
+    e = 5;
+
+    var risultatoSomma = a + b + c + d + e;
+    var risultatoMedia = risultatoSomma /5;
+
+    var risultatoEsercizio1 = "Dati i 5 valori: a=" + a + ", b=" + b + ", c=" + c + ", d=" + d + ", e=" + e + "\n\n"
+    + "La somma è " + risultatoSomma + "\n"
+    + "Il tipo della somma è " + typeof risultatoSomma + "\n"
+    + "La media è " + risultatoMedia + "\n"
+    + "Il tipo della somma è " + typeof risultatoMedia;
+</script>
+
+<script>
+
+    //Esercizio 2
+
+    var currentYear = 2018;
+    var bornYear = 1991;
+
+
+    var age = currentYear - bornYear;
+    var ageDistance = 100 - age;
+
+    var resultesercizio2 = "età = " + age + ", anni mancanti = " + ageDistance;
+
+    // console.log(result);
+
+
+</script>
+
+<script>
+
+    // Esercizio 3
+
+
+    var cats = 44;
+    var catsPerRow = 6;
+    var rowNumber = cats / catsPerRow;
+    var RoundRowNumber = Math.ceil(rowNumber);
+    var reminder = cats % catsPerRow;
+    var missing = catsPerRow - reminder;
+
+    var resultEsercizio3 = "numero di file = " + RoundRowNumber + ", gatti mancanti = " + missing;
+    // console.log(result);
+
+</script>
+
+<script>
+
+// Esercizio 4
+
+
+var h, m, s;
+
+var inputSecond = 12560;
+var secondsHour = 60 * 60;
+var secondMinute = 60;
+
+h = Math.floor(inputSecond / secondsHour);
+m = Math.floor(inputSecond % secondsHour / secondMinute);
+s = Math.floor(inputSecond % secondsHour % secondMinute);
+
+
+var resultEsercizio4 = h + "ore, " + m + " minuti e " + s + " secondi";
+
+// console.log(result);
+</script>
+<script src='assets/js/index.js'></script>
+</body>
+</html>
