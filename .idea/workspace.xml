@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8578538c-2d67-481a-a12d-f42eb8b2d50c" name="Changes" comment="Commit">
-      <change afterPath="$PROJECT_DIR$/JS/JS_live/Index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/JS_live/assets/js/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/JS_live/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS/JS_live/Index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/JS_live/assets/js/index.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +40,9 @@
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2QNny0n33ZGsu1ZvRfM0ttKJ8d8" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -191,7 +194,15 @@
       <workItem from="1689920494560" duration="5294000" />
       <workItem from="1689925842790" duration="373000" />
       <workItem from="1689939702572" duration="12078000" />
-      <workItem from="1690023032306" duration="11454000" />
+      <workItem from="1690023032306" duration="11600000" />
+      <workItem from="1690375118897" duration="34000" />
+      <workItem from="1690375216714" duration="5932000" />
+      <workItem from="1690449609500" duration="11151000" />
+      <workItem from="1690478364713" duration="795000" />
+      <workItem from="1690481273542" duration="477000" />
+      <workItem from="1690561583547" duration="521000" />
+      <workItem from="1690622592962" duration="6562000" />
+      <workItem from="1690712282057" duration="9277000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1685205257777</created>
@@ -384,7 +395,15 @@
       <option name="project" value="LOCAL" />
       <updated>1689953864777</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Commit">
+      <option name="closed" value="true" />
+      <created>1690041897338</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1690041897338</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

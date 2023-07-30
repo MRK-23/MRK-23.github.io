@@ -6,83 +6,322 @@
 </head>
 <body>
 
+<!--<script>-->
+
+<!--    //Esercizio 1-->
+
+<!--    var a, b, c, d, e;-->
+
+<!--    a = 1;-->
+<!--    b = 2;-->
+<!--    c = 3;-->
+<!--    d = 4;-->
+<!--    e = 5;-->
+
+<!--    var risultatoSomma = a + b + c + d + e;-->
+<!--    var risultatoMedia = risultatoSomma /5;-->
+
+<!--    var risultatoEsercizio1 = "Dati i 5 valori: a=" + a + ", b=" + b + ", c=" + c + ", d=" + d + ", e=" + e + "\n\n"-->
+<!--    + "La somma è " + risultatoSomma + "\n"-->
+<!--    + "Il tipo della somma è " + typeof risultatoSomma + "\n"-->
+<!--    + "La media è " + risultatoMedia + "\n"-->
+<!--    + "Il tipo della somma è " + typeof risultatoMedia;-->
+<!--</script>-->
+
+<!--<script>-->
+
+<!--    //Esercizio 2-->
+
+<!--    var currentYear = 2018;-->
+<!--    var bornYear = 1991;-->
+
+
+<!--    var age = currentYear - bornYear;-->
+<!--    var ageDistance = 100 - age;-->
+
+<!--    var resultesercizio2 = "età = " + age + ", anni mancanti = " + ageDistance;-->
+
+<!--    // console.log(result);-->
+
+
+<!--</script>-->
+
+<!--<script>-->
+
+<!--    // Esercizio 3-->
+
+
+<!--    var cats = 44;-->
+<!--    var catsPerRow = 6;-->
+<!--    var rowNumber = cats / catsPerRow;-->
+<!--    var RoundRowNumber = Math.ceil(rowNumber);-->
+<!--    var reminder = cats % catsPerRow;-->
+<!--    var missing = catsPerRow - reminder;-->
+
+<!--    var resultEsercizio3 = "numero di file = " + RoundRowNumber + ", gatti mancanti = " + missing;-->
+<!--    // console.log(result);-->
+
+<!--</script>-->
+
+<!--<script>-->
+
+<!--// Esercizio 4-->
+
+
+<!--var h, m, s;-->
+
+<!--var inputSecond = 12560;-->
+<!--var secondsHour = 60 * 60;-->
+<!--var secondMinute = 60;-->
+
+<!--h = Math.floor(inputSecond / secondsHour);-->
+<!--m = Math.floor(inputSecond % secondsHour / secondMinute);-->
+<!--s = inputSecond % secondsHour % secondMinute;-->
+
+
+<!--var result =            h + " or" + (h === 1 ? "a" : "e") + " , " +-->
+<!--                        m + " minut" + (m === 1 ? "o" : "i") + " e " +-->
+<!--                        s + " second" + (s === 1 ? "o" : "i") + " , ";-->
+
+<!--// console.log(result);-->
+<!--</script>-->
+
+<!--<script>-->
+
+<!--    // IF STATEMENT-->
+
+<!--    if (color === "red") {-->
+<!--        message = "stop"-->
+<!--    } else if (color === "yellow" || color === "blue" || color === "purple" || color === "magenta" || color === "black") {-->
+<!--        message = "allert"-->
+<!--    } else if (color === "green") {-->
+<!--        message = "go"-->
+<!--    } else {-->
+<!--        throw Error("colore non gestito")-->
+<!--    };-->
+
+
+<!--</script>-->
+
+<!--<script>-->
+
+
+<!--    // " LOOP " o CONTOLL STRUCTURE-->
+
+<!--    // WHILE-->
+
+<!--    var counter = 0;-->
+
+<!--    while (counter < 10) {-->
+
+<!--        console.log("I'm waithing");-->
+
+<!--        counter++;-->
+<!--    }-->
+
+
+<!--    // FOR-->
+
+<!--    for (var i=0; i<10; i++){-->
+
+<!--        console.log("I'm waithing dal for");-->
+
+<!--        counter++-->
+<!--    }-->
+
+<!--    // FOR IN-->
+
+<!--    var arr = [0, 1, 2, 3, 4];-->
+
+<!--    for (var d of arr){-->
+<!--        console.log("I'm waithing dal for in " + d );-->
+<!--    }-->
+
+<!--    var obj = { a:0, b:1, c:2 }-->
+<!--    for (var d in obj){-->
+<!--        console.log(d);-->
+<!--        console.log("I'm waithing dal for of " + obj[d]);-->
+<!--    }-->
+
+
+<!--</script>-->
+
+<!--<script>-->
+
+<!--    var a = 5;-->
+<!--    var b = -2;-->
+<!--    var c = 10;-->
+
+<!--    var caldo = 0;-->
+<!--    var freddo = 0;-->
+
+<!--    if (a > b && a > c){-->
+<!--        caldo = a-->
+<!--        freddo = b < c ? b : c;-->
+<!--    } else if (a < b && a < c){-->
+<!--        caldo = b > c ? b : c;-->
+<!--        freddo = a;-->
+<!--    } else{-->
+<!--        freddo = b < a ? b : a;-->
+<!--        caldo = c-->
+<!--    }-->
+
+<!--    var resultCaldoFreddo = "giornata più calda = " + caldo + ", giornata più fredda = " + freddo;-->
+<!--    console.log(resultCaldoFreddo);-->
+
+<!--</script>-->
+
 <script>
 
-    //Esercizio 1
+    var numero = 9999;
 
-    var a, b, c, d, e;
+    if (numero >= 0 && numero < 10){
+        contatore = 1;
+    } else if (numero >= 10 &&numero < 100){
+        contatore = 2;
+    } else if (numero >= 100 && numero < 1000){
+        contatore = 3;
+    } else if (numero >= 1000 && numero < 10000){
+        contatore = 4;
+    } else{
+        throw Error ("generic error")
+    }
 
-    a = 1;
-    b = 2;
-    c = 3;
-    d = 4;
-    e = 5;
+    var resultContatore = " massimo " + numero + ", conta cifre = " + contatore;
 
-    var risultatoSomma = a + b + c + d + e;
-    var risultatoMedia = risultatoSomma /5;
+    console.log(resultContatore)
 
-    var risultatoEsercizio1 = "Dati i 5 valori: a=" + a + ", b=" + b + ", c=" + c + ", d=" + d + ", e=" + e + "\n\n"
-    + "La somma è " + risultatoSomma + "\n"
-    + "Il tipo della somma è " + typeof risultatoSomma + "\n"
-    + "La media è " + risultatoMedia + "\n"
-    + "Il tipo della somma è " + typeof risultatoMedia;
+
 </script>
 
 <script>
 
-    //Esercizio 2
+    var lion = {
+        Roar: function () {
+            //...
+        }
+    }
 
-    var currentYear = 2018;
-    var bornYear = 1991;
+    console.log(lion)
 
+    var animal = {
+        Breathe: function () {
+            //...
+        },
+        birthDate: new Date()
+    }
 
-    var age = currentYear - bornYear;
-    var ageDistance = 100 - age;
+    var
+        felini = {
+            Type: "Mammifero",
+            Run: function () {
+                //...
+            },
+            Assault: function () {
+                //...
+            }
+        }
 
-    var resultesercizio2 = "età = " + age + ", anni mancanti = " + ageDistance;
+    function addFeatures(){
+        //...
+    }
 
-    // console.log(result);
+    var lion = Object.create(animal);
+    Object.setPrototypeOf(felini, animal);
+    Object.setPrototypeOf(lion, felini);
+
+    console.log(lion);
+
+</script>
+
+<script>
+
+    function Car(name, manufacturer){
+        this.name = name;
+        this.manufacturer = manufacturer;
+    }
+
+    Car.prototype.year = undefined;
+    Car.prototype.toString = function () {
+        return this.name = ", " + this.manufacturer;
+    }
+
+    Object.prototype.sayThis = function (t) {
+        return t;
+    }
+
+    var car1 = {name: "fiesta", manufacturer: "ford"};
+    var car2 = {name: "panda", manufacturer: "fiat"};
+    var car3 = new Car("model", "Tesla");
+    car3.year = 2018;
+    // Object.setPrototypeOf(car3, null) //metodo per spezzare l'ereditarietà
 
 
 </script>
 
 <script>
 
-    // Esercizio 3
+    function Card(face, suit) {
+
+        this.face = getFace(face);
+        this.suit = getSuit(suit);
+
+        function getSuit(suit) {
+
+            if (face < 0 || face > 3)
+                throw new Error("Argument out of range");
+
+            switch (suit) {
+                case 0:
+                    return "Cuori";
+                case 1:
+                    return "Fiori";
+                case 2:
+                    return "Quadri";
+                case 3:
+                    return "Picche";
+                default:
+                    throw new Error("Argument out of range");
+            }
+        }
 
 
-    var cats = 44;
-    var catsPerRow = 6;
-    var rowNumber = cats / catsPerRow;
-    var RoundRowNumber = Math.ceil(rowNumber);
-    var reminder = cats % catsPerRow;
-    var missing = catsPerRow - reminder;
+        function getFace(face) {
 
-    var resultEsercizio3 = "numero di file = " + RoundRowNumber + ", gatti mancanti = " + missing;
-    // console.log(result);
+            if ((face < 0 || face > 9) || Number.isInteger(face) === false)
+                throw new Error("Argument out of range");
+
+            switch (face) {
+                case 0:
+                    return "Asso";
+                case 9:
+                    return "King";
+                default:
+                    return (face + 1).toString();
+            }
+        }
+    }
+
+    function CardDeck() {
+
+        this.shuffle = function () {
+
+            var face = Math.round(Math.random() * 9);
+            var suit = Math.round(Math.random() * 3);
+
+            return new Card(face, suit);
+
+        }
+    }
+
+    var cardDeck = new CardDeck();
+
+    console.log(cardDeck);
+    console.log(cardDeck.shuffle());
 
 </script>
 
-<script>
 
-// Esercizio 4
-
-
-var h, m, s;
-
-var inputSecond = 12560;
-var secondsHour = 60 * 60;
-var secondMinute = 60;
-
-h = Math.floor(inputSecond / secondsHour);
-m = Math.floor(inputSecond % secondsHour / secondMinute);
-s = Math.floor(inputSecond % secondsHour % secondMinute);
-
-
-var resultEsercizio4 = h + "ore, " + m + " minuti e " + s + " secondi";
-
-// console.log(result);
-</script>
-<script src='assets/js/index.js'></script>
+<!--<script src='assets/js/index.js'></script>-->
 </body>
 </html>
