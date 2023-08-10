@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8578538c-2d67-481a-a12d-f42eb8b2d50c" name="Changes" comment="Commit">
+      <change afterPath="$PROJECT_DIR$/JS/JS_live/converter1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/JS_live/converter2.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JS/JS_live/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS/JS_live/Index.html" afterDir="false" />
     </list>
@@ -18,6 +20,7 @@
       <list>
         <option value="SCSS File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -47,25 +50,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;watcher.settings&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Applications/WebStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "list.type.of.created.stylesheet": "SCSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs.mocha.mocha_node_package_dir": "/Users/mirko/COD/node_modules/mocha",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "watcher.settings",
+    "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/JS" />
@@ -75,64 +79,93 @@
       <recent name="$PROJECT_DIR$/Bootstrap via Webstorm/Example" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.watch">
-    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/Bootstrap via Npm/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="dev" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
+  <component name="RunManager" selected="Mocha.converterTests (1)">
+    <configuration name="converterTests (1)" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>SUITE</test-kind>
+      <test-file>$PROJECT_DIR$/JS/JS_live/converter2.js</test-file>
+      <test-names>
+        <name value="converterTests" />
+      </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="minify" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/Bootstrap via Npm/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="minify" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
+    <configuration name="converterTests.convert Kg to g" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/JS/JS_live/converter.js</test-file>
+      <test-names>
+        <name value="converterTests" />
+        <name value="convert Kg to g" />
+      </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="sass" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/Bootstrap via Npm/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="sass" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
+    <configuration name="converterTests.convert not a number throws" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/JS/JS_live/converter.js</test-file>
+      <test-names>
+        <name value="converterTests" />
+        <name value="convert not a number throws" />
+      </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="watch" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/Bootstrap via Npm/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="watch" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
+    <configuration name="converterTests.convert something to blablabla (1)" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/JS/JS_live/converter2.js</test-file>
+      <test-names>
+        <name value="converterTests" />
+        <name value="convert something to blablabla" />
+      </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="watch:postcss" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/Bootstrap via Npm/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="watch:postcss" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
+    <configuration name="converterTests.convert something to blablabla" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/JS/JS_live/converter.js</test-file>
+      <test-names>
+        <name value="converterTests" />
+        <name value="convert something to blablabla" />
+      </test-names>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.watch" />
-        <item itemvalue="npm.sass" />
-        <item itemvalue="npm.minify" />
-        <item itemvalue="npm.dev" />
-        <item itemvalue="npm.watch:postcss" />
+        <item itemvalue="Mocha.converterTests (1)" />
+        <item itemvalue="Mocha.converterTests.convert something to blablabla (1)" />
+        <item itemvalue="Mocha.converterTests.convert something to blablabla" />
+        <item itemvalue="Mocha.converterTests.convert Kg to g" />
+        <item itemvalue="Mocha.converterTests.convert not a number throws" />
       </list>
     </recent_temporary>
   </component>
@@ -204,7 +237,11 @@
       <workItem from="1690712282057" duration="9569000" />
       <workItem from="1690804507799" duration="597000" />
       <workItem from="1690897897146" duration="5275000" />
-      <workItem from="1691068995306" duration="4295000" />
+      <workItem from="1691068995306" duration="5600000" />
+      <workItem from="1691151214388" duration="5299000" />
+      <workItem from="1691239786841" duration="5064000" />
+      <workItem from="1691410159008" duration="3481000" />
+      <workItem from="1691662465853" duration="8559000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1685205257777</created>
@@ -413,7 +450,15 @@
       <option name="project" value="LOCAL" />
       <updated>1690733302379</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Commit">
+      <option name="closed" value="true" />
+      <created>1691079496378</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1691079496378</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
