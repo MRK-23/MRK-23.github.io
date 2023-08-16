@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8578538c-2d67-481a-a12d-f42eb8b2d50c" name="Changes" comment="Commit">
-      <change afterPath="$PROJECT_DIR$/JS/JS_live/date.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/JS_live/date2.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -241,7 +239,7 @@
       <workItem from="1691662465853" duration="9095000" />
       <workItem from="1691754161460" duration="105000" />
       <workItem from="1691996945368" duration="10358000" />
-      <workItem from="1692092342371" duration="1339000" />
+      <workItem from="1692092342371" duration="2632000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1685205257777</created>
@@ -466,7 +464,15 @@
       <option name="project" value="LOCAL" />
       <updated>1691674100783</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Commit">
+      <option name="closed" value="true" />
+      <created>1692095705909</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1692095705909</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
