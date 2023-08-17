@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8578538c-2d67-481a-a12d-f42eb8b2d50c" name="Changes" comment="Commit">
+      <change afterPath="$PROJECT_DIR$/JS/DOM/BasicDom.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/JS_live/person.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/JS_live/person.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +18,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="SCSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -76,8 +78,8 @@
       <recent name="$PROJECT_DIR$/Bootstrap via Webstorm/Example" />
     </key>
   </component>
-  <component name="RunManager" selected="Mocha.Tests">
-    <configuration name="Date in range" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Mocha.personTests">
+    <configuration name="personTests" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
       <node-interpreter>project</node-interpreter>
       <node-options />
       <mocha-package>$PROJECT_DIR$/node_modules/mocha</mocha-package>
@@ -86,13 +88,13 @@
       <ui>bdd</ui>
       <extra-mocha-options />
       <test-kind>SUITE</test-kind>
-      <test-file>$PROJECT_DIR$/JS/JS_live/date.js</test-file>
+      <test-file>$PROJECT_DIR$/JS/JS_live/person.js</test-file>
       <test-names>
-        <name value="Date in range" />
+        <name value="personTests" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="Date in range.Date in range" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+    <configuration name="personTests.createPerson must throw when no arguments are given" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
       <node-interpreter>project</node-interpreter>
       <node-options />
       <mocha-package>$PROJECT_DIR$/node_modules/mocha</mocha-package>
@@ -101,14 +103,14 @@
       <ui>bdd</ui>
       <extra-mocha-options />
       <test-kind>TEST</test-kind>
-      <test-file>$PROJECT_DIR$/JS/JS_live/date.js</test-file>
+      <test-file>$PROJECT_DIR$/JS/JS_live/person.js</test-file>
       <test-names>
-        <name value="Date in range" />
-        <name value="Date in range" />
+        <name value="personTests" />
+        <name value="createPerson must throw when no arguments are given" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="Date in range.Date not valid values" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+    <configuration name="personTests.printPerson do something with formatter" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
       <node-interpreter>project</node-interpreter>
       <node-options />
       <mocha-package>$PROJECT_DIR$/node_modules/mocha</mocha-package>
@@ -117,14 +119,14 @@
       <ui>bdd</ui>
       <extra-mocha-options />
       <test-kind>TEST</test-kind>
-      <test-file>$PROJECT_DIR$/JS/JS_live/date.js</test-file>
+      <test-file>$PROJECT_DIR$/JS/JS_live/person.js</test-file>
       <test-names>
-        <name value="Date in range" />
-        <name value="Date not valid values" />
+        <name value="personTests" />
+        <name value="printPerson do something with formatter" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="Tests" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+    <configuration name="personTests.printPerson do something" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
       <node-interpreter>project</node-interpreter>
       <node-options />
       <mocha-package>$PROJECT_DIR$/node_modules/mocha</mocha-package>
@@ -132,14 +134,15 @@
       <pass-parent-env>true</pass-parent-env>
       <ui>bdd</ui>
       <extra-mocha-options />
-      <test-kind>SUITE</test-kind>
-      <test-file>$PROJECT_DIR$/JS/JS_live/date2.js</test-file>
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/JS/JS_live/person.js</test-file>
       <test-names>
-        <name value="Tests" />
+        <name value="personTests" />
+        <name value="printPerson do something" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="converterTests (1)" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+    <configuration name="printPerson do something" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
       <node-interpreter>project</node-interpreter>
       <node-options />
       <mocha-package>$PROJECT_DIR$/node_modules/mocha</mocha-package>
@@ -147,20 +150,20 @@
       <pass-parent-env>true</pass-parent-env>
       <ui>bdd</ui>
       <extra-mocha-options />
-      <test-kind>SUITE</test-kind>
-      <test-file>$PROJECT_DIR$/JS/JS_live/converter2.js</test-file>
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/JS/JS_live/person.js</test-file>
       <test-names>
-        <name value="converterTests" />
+        <name value="printPerson do something" />
       </test-names>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Mocha.Tests" />
-        <item itemvalue="Mocha.Date in range.Date not valid values" />
-        <item itemvalue="Mocha.Date in range" />
-        <item itemvalue="Mocha.Date in range.Date in range" />
-        <item itemvalue="Mocha.converterTests (1)" />
+        <item itemvalue="Mocha.personTests" />
+        <item itemvalue="Mocha.personTests.printPerson do something with formatter" />
+        <item itemvalue="Mocha.personTests.createPerson must throw when no arguments are given" />
+        <item itemvalue="Mocha.personTests.printPerson do something" />
+        <item itemvalue="Mocha.printPerson do something" />
       </list>
     </recent_temporary>
   </component>
@@ -240,6 +243,8 @@
       <workItem from="1691754161460" duration="105000" />
       <workItem from="1691996945368" duration="10358000" />
       <workItem from="1692092342371" duration="2632000" />
+      <workItem from="1692186847151" duration="11566000" />
+      <workItem from="1692273791140" duration="6063000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1685205257777</created>
@@ -472,7 +477,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692095705909</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Commit">
+      <option name="closed" value="true" />
+      <created>1692200695955</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1692200695955</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

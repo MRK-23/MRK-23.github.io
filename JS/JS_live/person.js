@@ -36,7 +36,7 @@ const printPerson = function (array, formatter) {
 
         const format = formatter === undefined ?
             (element) => element.name + " is " + element.age + "years old" +"\n":
-            element => formatter(element.name, element.age) + "\n"
+            (element) => formatter(element.name, element.age) + "\n"
 
         // Ciclare attraverso .map/.reduce
         return array.map(format)
@@ -79,15 +79,18 @@ describe("personTests", function () {
             createPerson("Manuel", 20),
             createPerson("Luca", 22),
             createPerson("Giacomo", 39)];
-        const formatter = (name, age) => name + "ha" + age + "anni";
+        const formatter = (name, age) => name + " ha " + age + " anni";
         const result = printPerson(array, formatter);
+
+        // Example of closure/callback
+        // result = printPerson(array, (name, age) => name + "ha" + age + "anni");
 
         const expectedResult = 'Mirko ha 37 anni\n' +
             'Manuel ha 20 anni\n' +
             'Luca ha 22 anni\n' +
             'Giacomo ha 39 anni\n'
 
+        assert.equal(result, expectedResult);
 
     });
-
 })
