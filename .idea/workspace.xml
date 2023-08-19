@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8578538c-2d67-481a-a12d-f42eb8b2d50c" name="Changes" comment="Commit">
-      <change afterPath="$PROJECT_DIR$/JS/DOM/BasicDom.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/DOM/Dom Exercises/exercise_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/DOM/Dom Exercises/exercise_2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/JS_live/person.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/JS_live/person.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/DOM/BasicDom.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS/DOM/BasicDom.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +79,10 @@
       <recent name="$PROJECT_DIR$/Bootstrap via Webstorm/Example" />
     </key>
   </component>
-  <component name="RunManager" selected="Mocha.personTests">
+  <component name="RunManager" selected="JavaScript Debug.exercise_2.html">
+    <configuration name="exercise_2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/COD/JS/DOM/Dom Exercises/exercise_2.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="personTests" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -142,28 +146,13 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="printPerson do something" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <mocha-package>$PROJECT_DIR$/node_modules/mocha</mocha-package>
-      <working-directory>$PROJECT_DIR$</working-directory>
-      <pass-parent-env>true</pass-parent-env>
-      <ui>bdd</ui>
-      <extra-mocha-options />
-      <test-kind>TEST</test-kind>
-      <test-file>$PROJECT_DIR$/JS/JS_live/person.js</test-file>
-      <test-names>
-        <name value="printPerson do something" />
-      </test-names>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.exercise_2.html" />
         <item itemvalue="Mocha.personTests" />
         <item itemvalue="Mocha.personTests.printPerson do something with formatter" />
         <item itemvalue="Mocha.personTests.createPerson must throw when no arguments are given" />
         <item itemvalue="Mocha.personTests.printPerson do something" />
-        <item itemvalue="Mocha.printPerson do something" />
       </list>
     </recent_temporary>
   </component>
@@ -244,7 +233,11 @@
       <workItem from="1691996945368" duration="10358000" />
       <workItem from="1692092342371" duration="2632000" />
       <workItem from="1692186847151" duration="11566000" />
-      <workItem from="1692273791140" duration="6063000" />
+      <workItem from="1692273791140" duration="6451000" />
+      <workItem from="1692361865089" duration="8482000" />
+      <workItem from="1692375631554" duration="3072000" />
+      <workItem from="1692382146348" duration="606000" />
+      <workItem from="1692438037727" duration="6875000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1685205257777</created>
@@ -485,7 +478,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692200695955</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Commit">
+      <option name="closed" value="true" />
+      <created>1692283790405</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1692283790405</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

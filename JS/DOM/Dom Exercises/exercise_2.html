@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise 2</title>
+</head>
+<body>
+<h1 id="prova">Things to do</h1>
+<ol id="toDoList">
+    <li class="important" about="something">Now the lean</li>
+    <li>Clean the windows</li>
+    <li class="imposrtant">Answer you email</li>
+</ol>
+<p id="toDoNotes">Make sure all these are game on TV!</p>
+
+<script>
+
+    (function() {
+        const olElement = document.getElementById("toDoList");
+        let count = 0;
+
+        // Cycle For Standard
+        /*for (let i=0; i<olElement.childNodes.length; i++){
+            if (olElement.childNodes[i].nodeType===1){
+                count++;*/
+
+        const element =[];
+
+        // Method of Array (Prototype forEach)
+                olElement.childNodes.forEach(node => {
+            if (node.nodeType === 1){
+                count++;
+                element.push(node);
+            }
+        });
+
+
+
+        // alert("The ordered list contains " +count+ " Items.");
+        element[0].innerHTML = "First element";
+        console.log(element);
+        var firstNode = element[1];
+        console.log(firstNode);
+        console.log(firstNode.nodeValue); // Value ritorna un valore di tipo text, diversamente ritorna (null)
+        console.log(firstNode.nodeName);
+
+        // Ottenere tutti gli elementi corrispondenti al TAG "li"
+        const listElement = document.getElementsByTagName("li")
+        console.log(listElement);
+        console.log(listElement.item(1));
+
+        const classElement = document.getElementsByClassName("important");
+        console.log(classElement);
+
+        const elements = classElement.item(0);
+        const attribute = elements.getAttribute("about");
+        console.log(attribute);
+
+        // MOST USED
+
+        const olElements = document.getElementById("toDoList");
+
+        const el = document.querySelector("li.important[about]"); // Il primo della lista
+        console.log(el.getAttribute("about"));
+
+        const elm = document.querySelectorAll("li.important[about]").item(0); // "All" seleziona tutti gli elementi con possibilità di selezionare uno o più elementi presenti all'interno della lista.
+        console.log(elm.getAttribute("about"));
+
+        const createElement = document.createElement("li"); // Metodo per aggiungere elementi
+        createElement.innerHTML = "Some text";
+        olElement.appendChild(createElement);
+        console.log(createElement);
+
+        const createTextNode = document.createTextNode("SOMETHING"); // Metodo per aggiungere text (in coda) a un paragrafo
+        const p = document.querySelector("p#toDoNotes");
+        p.appendChild(createTextNode);
+
+
+        // CONSIGLIATI
+
+        // element.append(nodeElement);
+        // element.appendChild(nodeElement);
+        // element.prepend(nodeElement);
+
+        /* element.insertAdjacentElement(position, nodeElement);
+        Position può assumere come valori:
+            - beforebegin
+            - afterbegin
+            - beforeend
+            - afterend
+*/
+
+        const cloned = createTextNode.cloneNode(true);
+        p.appendChild(cloned);
+
+        cloneAndPrint(olElements, document.querySelector("#toDoList li:nth-child(3)"), 1, "afterend");
+
+    })();
+    
+    function cloneAndPrint(elementToClone, elementToAppend, times, position) {
+        for (let i=0; i<times; i++){
+            const clonedComplexElement = elementToClone.cloneNode(true);
+
+            if (!!!position){
+                elementToAppend.insertAdjacentElement(position, clonedComplexElement);
+                continue;
+            }
+            elementToAppend.append(clonedComplexElement);
+        }
+        
+    }
+    
+    
+</script>
+
+</body>
+</html>

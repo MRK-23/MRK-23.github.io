@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise 1</title>
+</head>
+<body>
+
+<div id="id1">
+
+    <p id="para1">Welcome to my web page.</p>
+    <p id="para2">Please take a look around.</p>
+    <input id="btn" value="Replace element" type="button"/>
+
+    <script>
+
+       /* Esercitazione:
+            - Dato il codice html riportato qui a fianco, si vuole
+            sostituire il primo paragrafo all’interno del <div> id1,
+            con un heading <h2> contente il testo: Welcome!*/
+
+       let click = 0;
+
+
+       function onClickEventHandler (e) { // (e) Passare un evento per indagine ecc.
+           // console.log(e)
+
+           const targetClicked = e.target; // Manipolare l'evento click
+           targetClicked.disable = true; // Manipolare l'evento click
+
+           const elm = document.getElementById("para1")
+           elm.innerHTML = "<h2>" + "Welcome!!!" + "</h2>";
+       }
+
+       const btn = document.getElementById("btn");
+       btn.addEventListener("click", onClickEventHandler)
+
+
+
+    </script>
+
+</div>
+
+</body>
+</html>
