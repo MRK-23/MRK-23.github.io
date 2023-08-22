@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise 3</title>
+</head>
+<body>
+
+<h1>Lorem Ipsum</h1>
+<article id="item1">
+  <h2>What is Lorem Ipsum 1</h2>
+  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+    when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+    It has survived not only five centuries, but also the leap into electronic typesetting,
+    remaining essentially unchanged. It was popularised in the 1960s with the release
+    of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+    publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+</article>
+<article id="item2">
+  <h2>What is Lorem Ipsum 2</h2>
+  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+    when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+    It has survived not only five centuries, but also the leap into electronic typesetting,
+    remaining essentially unchanged. It was popularised in the 1960s with the release
+    of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+    publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+</article>
+<article id="item3">
+  <h2>What is Lorem Ipsum 3</h2>
+  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+    when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+    It has survived not only five centuries, but also the leap into electronic typesetting,
+    remaining essentially unchanged. It was popularised in the 1960s with the release
+    of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+    publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+</article>
+<article id="item4">
+  <h2>What is Lorem Ipsum 4</h2>
+  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+    when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+    It has survived not only five centuries, but also the leap into electronic typesetting,
+    remaining essentially unchanged. It was popularised in the 1960s with the release
+    of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+    publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+</article>
+<article id="item5">
+  <h2>What is Lorem Ipsum 5</h2>
+  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+    when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+    It has survived not only five centuries, but also the leap into electronic typesetting,
+    remaining essentially unchanged. It was popularised in the 1960s with the release
+    of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+    publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+</article>
+
+<script>
+
+  function getTitlesFromArticles(list) {
+    const articleTitles = [];
+    for (let i=0; i<list.length; i++){
+      console.log(list.item(i).innerHTML);
+      articleTitles.push(list.item(i).innerHTML);
+    }
+    return articleTitles;
+  }
+
+
+  function creteAnchor(title, order) {
+    const aElement = document.createElement("a");
+    aElement.innerHTML = title;
+    aElement.setAttribute("href", "#item"+ order);
+    return aElement;
+  }
+
+  (function () {
+    const articleTitles = getTitlesFromArticles(document.querySelectorAll("article > h2"));
+
+    const bodyElements = document.getElementsByTagName("body").item(0);
+    const ulElement = document.createElement("ul");
+
+
+    if (bodyElements instanceof HTMLBodyElement){
+
+      bodyElements.prepend(ulElement)
+
+      for (let i=0; i < articleTitles.length; i++){
+        const  liElement = document.createElement("li");
+        const aElement = creteAnchor(articleTitles[i], i+1);
+        liElement.append(aElement);
+        ulElement.append(liElement);
+      }
+    }
+    //console.log(articleTitles)
+  })()
+
+
+</script>
+
+
+</body>
+</html>
