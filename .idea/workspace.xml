@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8578538c-2d67-481a-a12d-f42eb8b2d50c" name="Changes" comment="Commit">
-      <change afterPath="$PROJECT_DIR$/JS/DOM/Dom Exercises/exercise_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/DOM/Dom Exercises/exercise_4.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/DOM/Dom Exercises/exercise_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS/DOM/Dom Exercises/exercise_3.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -237,7 +238,8 @@
       <workItem from="1692382146348" duration="606000" />
       <workItem from="1692438037727" duration="7027000" />
       <workItem from="1692618938408" duration="7004000" />
-      <workItem from="1692707044719" duration="6900000" />
+      <workItem from="1692707044719" duration="7577000" />
+      <workItem from="1692780620120" duration="12495000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1685205257777</created>
@@ -494,7 +496,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692456454312</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Commit">
+      <option name="closed" value="true" />
+      <created>1692716545103</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1692716545103</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

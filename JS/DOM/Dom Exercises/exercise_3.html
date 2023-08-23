@@ -61,46 +61,43 @@
 <script>
 
   function getTitlesFromArticles(list) {
-    const articleTitles = [];
-    for (let i=0; i<list.length; i++){
-      console.log(list.item(i).innerHTML);
-      articleTitles.push(list.item(i).innerHTML);
+    const articleTitle = [];
+    for (let i = 0; i < list.length; i++) {
+      console.log(list.item(i).innerHTML)
+      articleTitle.push(list.item(i).innerHTML)
     }
-    return articleTitles;
+    return articleTitle;
   }
 
-
-  function creteAnchor(title, order) {
+  function createAnchor(title, order) {
     const aElement = document.createElement("a");
     aElement.innerHTML = title;
-    aElement.setAttribute("href", "#item"+ order);
+    aElement.setAttribute("href", "#item" + order);
     return aElement;
   }
 
-  (function () {
-    const articleTitles = getTitlesFromArticles(document.querySelectorAll("article > h2"));
-
+  (function (){
+    const articleTitle = getTitlesFromArticles(document.querySelectorAll("article > h2"));
     const bodyElements = document.getElementsByTagName("body").item(0);
     const ulElement = document.createElement("ul");
 
-
     if (bodyElements instanceof HTMLBodyElement){
 
-      bodyElements.prepend(ulElement)
+      bodyElements.prepend(ulElement);
 
-      for (let i=0; i < articleTitles.length; i++){
-        const  liElement = document.createElement("li");
-        const aElement = creteAnchor(articleTitles[i], i+1);
+      for (let i=0; i<articleTitle.length; i++){
+        const liElement = document.createElement("li");
+        const aElement = createAnchor(articleTitle[i], i+1);
         liElement.append(aElement);
         ulElement.append(liElement);
       }
     }
-    //console.log(articleTitles)
-  })()
+   // console.log(articleTitle)
+
+  })();
 
 
 </script>
-
 
 </body>
 </html>
