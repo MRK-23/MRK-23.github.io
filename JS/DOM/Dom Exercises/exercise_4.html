@@ -38,6 +38,12 @@
                 <div class="card mb-3">
                     <div class="card-body">
                         <h5 class="card-title">select person of birthday</h5>
+                        <form>
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>---</option>
+                            </select>
+                            <button class="btn btn-primary mt-3" type="submit">Submit</button>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -69,7 +75,7 @@
 
 <script>
 
-    class Person{
+    class Person {
         constructor(name, age, city = "") {
             this.name = name;
             this.age = age;
@@ -79,12 +85,21 @@
 
 </script>
 <script>
-    const persons =[
-        new Person("Klaus", 40),
-        new Person("Walter", 45, "Hamburg"),
-        new Person("Susi", 39, "Hamburg"),
-        new Person("Antonio", 20, "Milano"),
-    ];
+    const persons = {
+        list : [
+            new Person("Klaus", 40),
+            new Person("Walter", 45, "Hamburg"),
+            new Person("Susi", 39, "Hamburg"),
+            new Person("Antonio", 20, "Milano"),
+            "qualcos altro"
+        ],
+        addItemToList : function(item) {
+            this.list.push(item);
+            document.dispatchEvent(new Event("listUpdated", {
+                bubbles: true
+            }));
+        }
+    }
 </script>
 <script>
     function populatePersonList(persons) {
@@ -96,6 +111,7 @@
 
 
             ul.innerHTML = persons
+                .filter(p => p instanceof Person)
                 .sort((a, b) => a.age - b.age)
                 .map((p) => {
 
@@ -103,7 +119,7 @@
                     let s = "";
                     s += '<li class="list-group-item d-flex">'
                     s += '<div>' + p.name;
-                    s += (p.city.length > 0) ? ' (' + p.city + ')' : ""; // Ternary
+                    s += (p.city) ? ' (' + p.city + ')' : ""; // Ternary
                     s += '</div>';
                     s += '<div class="ms-auto">' + p.age + ' anni</div>'
                     s += '</li>';
@@ -115,9 +131,30 @@
 
         }
     }
+
+    function populateOptions(persons) {
+
+        if (persons instanceof Array){
+
+            const form = document.forms.item(1);
+            const select = form.elements[0];
+            const newOptions = persons
+                .sort((a, b) => a.age - b.age)
+                .map((p, index) => new Option(p.name, index.toString()));
+            const firstChild = [select.children[0]];
+            const t = firstChild.concat(newOptions);
+            select.innerHTML = ""; // Svuota semplice
+            t.forEach(i => {
+                select.append(i);
+            })
+
+        }
+        
+    }
 </script>
 <script>
-    populatePersonList(persons);
+    populatePersonList(persons.list);
+    populateOptions(persons.list);
 </script>
 <script>
     const personCreateForm = document.forms.item(0);
@@ -131,11 +168,34 @@
         const city = form.elements[2].value;
 
         const person = new Person(name, age, city);
-        console.log(person);
-        persons.push(person);
-        populatePersonList(persons);
+        persons.addItemToList(person);
 
         form.reset();
+
+    })
+
+    const birthdayForm = document.forms.item(1);
+
+    birthdayForm.addEventListener("submit", (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        const selectedPersonName = e.target.elements[0].value;
+        const selectedPerson = persons.list
+            .filter(p => p instanceof Person)
+            .sort((a, b) => a.age -b.age)[selectedPersonName]
+        if (selectedPerson instanceof Person){
+            selectedPerson.age++;
+            document.dispatchEvent(new Event("listUpdated", {
+                bubbles: true
+            }));
+
+        }
+
+    })
+
+    document.addEventListener("listUpdated", () => {
+        populatePersonList(persons.list);
+        populateOptions(persons.list);
     })
 </script>
 

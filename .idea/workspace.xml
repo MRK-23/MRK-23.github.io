@@ -77,8 +77,11 @@
       <recent name="$PROJECT_DIR$/Bootstrap via Webstorm/Example" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.exercise_2.html">
+  <component name="RunManager" selected="JavaScript Debug.exercise_4.html">
     <configuration name="exercise_2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/COD/JS/DOM/Dom Exercises/exercise_2.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="exercise_4.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/COD/JS/DOM/Dom Exercises/exercise_4.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="personTests" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
@@ -128,29 +131,13 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="personTests.printPerson do something" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <mocha-package>$PROJECT_DIR$/node_modules/mocha</mocha-package>
-      <working-directory>$PROJECT_DIR$</working-directory>
-      <pass-parent-env>true</pass-parent-env>
-      <ui>bdd</ui>
-      <extra-mocha-options />
-      <test-kind>TEST</test-kind>
-      <test-file>$PROJECT_DIR$/JS/JS_live/person.js</test-file>
-      <test-names>
-        <name value="personTests" />
-        <name value="printPerson do something" />
-      </test-names>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.exercise_4.html" />
         <item itemvalue="JavaScript Debug.exercise_2.html" />
         <item itemvalue="Mocha.personTests" />
         <item itemvalue="Mocha.personTests.printPerson do something with formatter" />
         <item itemvalue="Mocha.personTests.createPerson must throw when no arguments are given" />
-        <item itemvalue="Mocha.personTests.printPerson do something" />
       </list>
     </recent_temporary>
   </component>
@@ -239,7 +226,11 @@
       <workItem from="1692618938408" duration="7004000" />
       <workItem from="1692707044719" duration="7577000" />
       <workItem from="1692780620120" duration="12818000" />
-      <workItem from="1692875489650" duration="6774000" />
+      <workItem from="1692875489650" duration="7080000" />
+      <workItem from="1693039911279" duration="91000" />
+      <workItem from="1693040053034" duration="117000" />
+      <workItem from="1693210236980" duration="13965000" />
+      <workItem from="1693385952894" duration="5082000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1685205257777</created>
@@ -512,7 +503,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692803865557</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Commit">
+      <option name="closed" value="true" />
+      <created>1692886974388</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1692886974388</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
