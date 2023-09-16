@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8578538c-2d67-481a-a12d-f42eb8b2d50c" name="Changes" comment="Commit" />
+    <list default="true" id="8578538c-2d67-481a-a12d-f42eb8b2d50c" name="Changes" comment="Commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/DOM/Dom Exercises/exercise_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS/DOM/Dom Exercises/exercise_3.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +24,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;MRK-23&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="fbcf2039-d106-4786-89fe-a30b98a58b03" />
+        <option name="url" value="https://github.com/MRK-23/MRK-23.github.io.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/css/Styles/style.css" root0="FORCE_HIGHLIGHTING" />
@@ -226,6 +243,13 @@
       <workItem from="1693210236980" duration="13965000" />
       <workItem from="1693385952894" duration="5082000" />
       <workItem from="1694854823932" duration="62000" />
+      <workItem from="1694854903113" duration="205000" />
+      <workItem from="1694855117474" duration="8000" />
+      <workItem from="1694855206966" duration="122000" />
+      <workItem from="1694855353320" duration="90000" />
+      <workItem from="1694869453018" duration="3607000" />
+      <workItem from="1694876639255" duration="19000" />
+      <workItem from="1694876708020" duration="14000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1685205257777</created>
@@ -506,7 +530,23 @@
       <option name="project" value="LOCAL" />
       <updated>1692886974388</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Commit">
+      <option name="closed" value="true" />
+      <created>1694854999076</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1694854999076</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Commit">
+      <option name="closed" value="true" />
+      <created>1694855049351</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1694855049351</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

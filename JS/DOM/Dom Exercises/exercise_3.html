@@ -63,33 +63,33 @@
   function getTitlesFromArticles(list) {
     const articleTitle = [];
     for (let i = 0; i < list.length; i++) {
-      console.log(list.item(i).innerHTML)
+      // console.log(list.item(i).innerHTML)
       articleTitle.push(list.item(i).innerHTML)
     }
     return articleTitle;
   }
 
   function createAnchor(title, order) {
-    const aElement = document.createElement("a");
-    aElement.innerHTML = title;
-    aElement.setAttribute("href", "#item" + order);
-    return aElement;
+    const aElements = document.createElement("a");
+    aElements.innerHTML = title;
+    aElements.setAttribute("href", "#item" + order);
+    return aElements;
   }
 
   (function (){
     const articleTitle = getTitlesFromArticles(document.querySelectorAll("article > h2"));
     const bodyElements = document.getElementsByTagName("body").item(0);
-    const ulElement = document.createElement("ul");
+    const ulElements = document.createElement("ul");
 
     if (bodyElements instanceof HTMLBodyElement){
 
-      bodyElements.prepend(ulElement);
+      bodyElements.prepend(ulElements);
 
       for (let i=0; i<articleTitle.length; i++){
-        const liElement = document.createElement("li");
-        const aElement = createAnchor(articleTitle[i], i+1);
-        liElement.append(aElement);
-        ulElement.append(liElement);
+        const liElements = document.createElement("li");
+        const aElements = createAnchor(articleTitle[i], i+1);
+        liElements.append(aElements);
+        ulElements.append(liElements);
       }
     }
    // console.log(articleTitle)
