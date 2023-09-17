@@ -109,7 +109,22 @@
         }
         
     }
-    
+
+    function createAnchor(title) {
+        const aElements = document.createElement('a');
+        aElements.innerHTML = title;
+        return aElements
+    }
+
+    const bodyElements = document.getElementsByTagName('body').item(0);
+    const ulElements = document.createElement('ul');
+    bodyElements.prepend(ulElements);
+    const liElements = document.createElement('li');
+    const aElements = createAnchor('link');
+    aElements.setAttribute('href', "https://www.google.com")
+    liElements.append(aElements)
+    ulElements.append(liElements);
+
     
 </script>
 
