@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8578538c-2d67-481a-a12d-f42eb8b2d50c" name="Changes" comment="Commit">
+      <change afterPath="$PROJECT_DIR$/JS/JS_live/Test.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/DOM/Dom Exercises/exercise_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS/DOM/Dom Exercises/exercise_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/DOM/Dom Exercises/exercise_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS/DOM/Dom Exercises/exercise_3.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,18 +75,18 @@
     &quot;nodejs.mocha.mocha_node_package_dir&quot;: &quot;/Users/mirko/COD/node_modules/mocha&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;watcher.settings&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
     &quot;ts.external.directory.path&quot;: &quot;/Applications/WebStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/JS/JS_live" />
+      <recent name="$PROJECT_DIR$/JS/DOM" />
       <recent name="$PROJECT_DIR$/JS" />
       <recent name="$PROJECT_DIR$/Bootstrap via Npm/assets" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/Bootstrap via Npm" />
-      <recent name="$PROJECT_DIR$/Bootstrap via Webstorm/Example" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.exercise_4.html">
@@ -252,7 +253,11 @@
       <workItem from="1694876708020" duration="14000" />
       <workItem from="1694876801011" duration="35000" />
       <workItem from="1694876877974" duration="153000" />
-      <workItem from="1694967056316" duration="5685000" />
+      <workItem from="1694967056316" duration="6169000" />
+      <workItem from="1695043732717" duration="5588000" />
+      <workItem from="1695063281416" duration="186000" />
+      <workItem from="1695245761151" duration="34000" />
+      <workItem from="1695388937130" duration="2111000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1685205257777</created>
@@ -565,7 +570,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694971011860</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Commit">
+      <option name="closed" value="true" />
+      <created>1694973016513</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1694973016513</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
