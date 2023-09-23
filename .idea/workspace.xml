@@ -7,7 +7,6 @@
     <list default="true" id="8578538c-2d67-481a-a12d-f42eb8b2d50c" name="Changes" comment="Commit">
       <change afterPath="$PROJECT_DIR$/JS/JS_live/Test.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/DOM/Dom Exercises/exercise_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS/DOM/Dom Exercises/exercise_3.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -257,7 +256,8 @@
       <workItem from="1695043732717" duration="5588000" />
       <workItem from="1695063281416" duration="186000" />
       <workItem from="1695245761151" duration="34000" />
-      <workItem from="1695388937130" duration="2111000" />
+      <workItem from="1695388937130" duration="2999000" />
+      <workItem from="1695472097850" duration="3493000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1685205257777</created>
@@ -578,7 +578,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694973016513</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Commit">
+      <option name="closed" value="true" />
+      <created>1695392691035</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1695392691035</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
