@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+
+    const bodyElement = document.querySelector('body');
+    const h1 = document.createElement('h1');
+    const formElement = document.createElement('form');
+    const labelElement = document.createElement('label');
+    const inputElement = document.createElement('input');
+    const button = document.createElement('button');
+
+    bodyElement.prepend(h1);
+
+    h1.innerHTML = 'Hello World';
+    h1.insertAdjacentElement('afterend', formElement);
+
+    formElement.insertAdjacentElement('afterbegin', labelElement);
+    labelElement.setAttribute('for', 'name');
+    labelElement.innerHTML = 'name';
+    labelElement.insertAdjacentElement('afterend', inputElement);
+
+    inputElement.setAttribute('type', 'text');
+    inputElement.setAttribute('name', 'name');
+    inputElement.setAttribute('placeholder', 'name');
+    inputElement.setAttribute('id', 'name');
+    inputElement.insertAdjacentElement('afterend', button);
+
+    button.setAttribute('type', 'submit');
+    button.innerHTML = 'Greet';
+    const divElement = document.createElement('div');
+    formElement.insertAdjacentElement('afterend', divElement);
+    const nameForm = document.forms.item(0);
+    nameForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        const f = e.target;
+        divElement.innerHTML = f.elements[0].value;
+        f.reset();
+    })
+
+
+</script>
+
+</body>
+</html>
