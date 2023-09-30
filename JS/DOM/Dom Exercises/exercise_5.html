@@ -70,5 +70,21 @@
 
 </script>
 
+<script>
+
+    // REST PARAMETER
+    function sum(...operands) {
+        return operands
+            .filter(i => typeof i === 'number')
+            .reduce((c,p) => c + p);
+    }
+
+    const arr = [100, 1, 2, 3, 4];
+    const [a, b, ...pippo] = arr;
+
+    const obj = {a: 1, b: 2, c: 3};
+    const {a: a1, b: b1, ...rest} = obj; // Destructuring assignment (Assigning to new variable names)
+</script>
+
 </body>
 </html>

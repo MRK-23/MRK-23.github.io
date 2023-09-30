@@ -105,10 +105,10 @@
     function populatePersonList(persons) {
 
 
-        function toListItem(p) {
+        function toListItem({name, city, age}) {
             return `<li class="list-group-item d-flex">
-                                <div>${p.name} ${(p.city.length > 0) ? `(${p.city})` : ''}</div>
-                                <div class="ms-auto">${p.age} anni</div>
+                                <div>${name} ${(city.length > 0) ? `(${city})` : ''}</div>
+                                <div class="ms-auto">${age} anni</div>
                             </li>`;
         }
 
