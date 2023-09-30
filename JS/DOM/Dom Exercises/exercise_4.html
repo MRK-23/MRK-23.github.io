@@ -105,6 +105,13 @@
     function populatePersonList(persons) {
 
 
+        function toListItem(p) {
+            return `<li class="list-group-item d-flex">
+                                <div>${p.name} ${(p.city.length > 0) ? `(${p.city})` : ''}</div>
+                                <div class="ms-auto">${p.age} anni</div>
+                            </li>`;
+        }
+
         if (persons instanceof Array){
 
             const ul = document.getElementById("persons-list");
@@ -113,20 +120,19 @@
             ul.innerHTML = persons
                 .filter(p => p instanceof Person)
                 .sort((a, b) => a.age - b.age)
-                .map((p) => {
+                .map(toListItem)
 
                     // create li, transform the content in string (example: let s = "")
-                    let s = "";
-                    s += '<li class="list-group-item d-flex">'
-                    s += '<div>' + p.name;
-                    s += (p.city) ? ' (' + p.city + ')' : ""; // Ternary
-                    s += '</div>';
-                    s += '<div class="ms-auto">' + p.age + ' anni</div>'
-                    s += '</li>';
+                    // let s = "";
+                    // s += '<li class="list-group-item d-flex">'
+                    // s += '<div>' + p.name;
+                    // s += (p.city) ? ' (' + p.city + ')' : ""; // Ternary
+                    // s += '</div>';
+                    // s += '<div class="ms-auto">' + p.age + ' anni</div>'
+                    // s += '</li>';
 
-                    return s;
+                    // return s;
 
-        })
                 .join("");
 
         }
