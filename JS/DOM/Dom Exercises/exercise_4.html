@@ -107,7 +107,7 @@
 
         function toListItem({name, city, age}) {
             return `<li class="list-group-item d-flex">
-                                <div>${name} ${(city.length > 0) ? `(${city})` : ''}</div>
+                                <div>${name} ${city ? `(${city})` : ''}</div>
                                 <div class="ms-auto">${age} anni</div>
                             </li>`;
         }
