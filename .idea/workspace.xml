@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8578538c-2d67-481a-a12d-f42eb8b2d50c" name="Changes" comment="Commit">
+      <change afterPath="$PROJECT_DIR$/JS/BOM/BOM Exercises/BOM-0/exercise_0.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/DOM/Dom Exercises/exercise_4.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS/DOM/Dom Exercises/exercise_4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/DOM/BasicDom.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS/DOM/DOM Exercises/DOM-0/BasicDom.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/DOM/Dom Exercises/exercise_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS/DOM/DOM Exercises/DOM-1/exercise_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/DOM/Dom Exercises/exercise_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS/DOM/DOM Exercises/DOM-2/exercise_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/DOM/Dom Exercises/exercise_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS/DOM/DOM Exercises/DOM-3/exercise_3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/DOM/Dom Exercises/exercise_4.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS/DOM/DOM Exercises/DOM-4/exercise_4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/DOM/Dom Exercises/exercise_5.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS/DOM/DOM Exercises/DOM-5/exercise_5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/DOM/Dom Exercises/exercise_6.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,11 +88,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/JS/JS_live" />
-      <recent name="$PROJECT_DIR$/JS/DOM" />
-      <recent name="$PROJECT_DIR$/JS" />
-      <recent name="$PROJECT_DIR$/Bootstrap via Npm/assets" />
-      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/JS/BOM/BOM Exercises/BOM-0" />
+      <recent name="$PROJECT_DIR$/JS/DOM/DOM Exercises/DOM-0" />
+      <recent name="$PROJECT_DIR$/JS/DOM/Dom Exercises/DOM-5" />
+      <recent name="$PROJECT_DIR$/JS/DOM/Dom Exercises/DOM-4" />
+      <recent name="$PROJECT_DIR$/JS/DOM/Dom Exercises/DOM-3" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.exercise_4.html">
@@ -263,7 +270,8 @@
       <workItem from="1696075170500" duration="12977000" />
       <workItem from="1696092999437" duration="3000" />
       <workItem from="1696164539568" duration="6851000" />
-      <workItem from="1696683439057" duration="789000" />
+      <workItem from="1696683439057" duration="914000" />
+      <workItem from="1696770383599" duration="5974000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1685205257777</created>
@@ -383,14 +391,6 @@
       <option name="presentableId" value="LOCAL-00017" />
       <option name="project" value="LOCAL" />
       <updated>1687625764322</updated>
-    </task>
-    <task id="LOCAL-00019" summary="Commit">
-      <option name="closed" value="true" />
-      <created>1688227246257</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1688227246257</updated>
     </task>
     <task id="LOCAL-00020" summary="Commit">
       <option name="closed" value="true" />
@@ -640,7 +640,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696172198263</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="Commit">
+      <option name="closed" value="true" />
+      <created>1696688286692</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1696688286692</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

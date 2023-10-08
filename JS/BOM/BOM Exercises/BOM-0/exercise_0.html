@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Browser Object Model</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+<div class="container">
+    <div class="card p-5 m-5">
+        <form>
+            <div class="my-3">
+                <label for="copy-text" class="form-label">Riporta i tuoi dati qui</label>
+                <textarea class="form-control" id="copy-text" rows="3"></textarea>
+            </div>
+            <div class="my-3">
+                <button class="btn btn-primary" id="copy-btn" type="submit">Copy to Clipboard</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+</script>
+
+<script>
+
+    const button = document.getElementById('copy-btn');
+    const textArea = document.getElementById('copy-text');
+    const form = document.forms.item(0);
+
+    // 1. UTILIZZANDO SOLO BUTTON
+
+    button.addEventListener('click', () => {
+        // console.log(e);
+
+        if (textArea instanceof HTMLTextAreaElement){
+            console.log(textArea.value);
+            navigator.clipboard.writeText(`Quello che segue e il valore della textArea: ${textArea.value}`);
+            textArea.value = '';
+        }
+
+    });
+
+    // 2. UTILIZZANDO FORM
+
+    form.addEventListener('submit', (e) => {
+        console.log('form submitted');
+
+        // Tutte le volte che maneggiamo una variabile, proprrieta' o costante...
+        // Questa puo' essere un tipo primitivo o un tipo di riferimento.
+
+        // PRIMITIVO: number, string, boolean, null, undefined.
+        // Quando ho a che foare con i tipi PRIMITIVI posso asserire il tipo attraverso un codice tipo questo:
+        // typeoff e === 'string'
+
+        // RIFERIMENTO: object, array, dateTime... e molto altro... tipo (HTMLFormElement, HTMLElement ecc).
+        // Quando ho a che fare con i tipi di RIFERIMENTO posso asserire il tipo attraverso un codice tipo questo:
+        // e instanceof Array
+
+        if (e.target instanceof HTMLFormElement){
+            const textArea = e.target.elements[0];
+
+            if (textArea instanceof HTMLTextAreaElement){
+                console.log(textArea.value);
+                navigator.clipboard.writeText(`Quello che segue e il valore della textArea: ${textArea.value}`);
+            }
+        }
+
+        e.preventDefault();
+        e.stopPropagation();
+        form.reset();
+    })
+
+</script>
+
+</body>
+</html>
