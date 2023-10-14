@@ -5,15 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8578538c-2d67-481a-a12d-f42eb8b2d50c" name="Changes" comment="Commit">
-      <change afterPath="$PROJECT_DIR$/JS/BOM/BOM Exercises/BOM-0/exercise_0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/DOM/DOM Exercises/DOM-6/Exercise_6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/DOM/DOM Exercises/DOM-6/Functions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/DOM/DOM Exercises/DOM-6/Index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/DOM/DOM Exercises/DOM-6/Types.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/DOM/BasicDom.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS/DOM/DOM Exercises/DOM-0/BasicDom.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/DOM/Dom Exercises/exercise_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS/DOM/DOM Exercises/DOM-1/exercise_1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/DOM/Dom Exercises/exercise_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS/DOM/DOM Exercises/DOM-2/exercise_2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/DOM/Dom Exercises/exercise_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS/DOM/DOM Exercises/DOM-3/exercise_3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/DOM/Dom Exercises/exercise_4.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS/DOM/DOM Exercises/DOM-4/exercise_4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/DOM/Dom Exercises/exercise_5.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS/DOM/DOM Exercises/DOM-5/exercise_5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/DOM/Dom Exercises/exercise_6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/BOM/BOM Exercises/BOM-0/exercise_0.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS/BOM/BOM Exercises/BOM-0/exercise_0.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +21,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="SCSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -271,7 +268,9 @@
       <workItem from="1696092999437" duration="3000" />
       <workItem from="1696164539568" duration="6851000" />
       <workItem from="1696683439057" duration="914000" />
-      <workItem from="1696770383599" duration="5974000" />
+      <workItem from="1696770383599" duration="6277000" />
+      <workItem from="1697271192593" duration="48000" />
+      <workItem from="1697271252665" duration="14180000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1685205257777</created>
@@ -391,22 +390,6 @@
       <option name="presentableId" value="LOCAL-00017" />
       <option name="project" value="LOCAL" />
       <updated>1687625764322</updated>
-    </task>
-    <task id="LOCAL-00020" summary="Commit">
-      <option name="closed" value="true" />
-      <created>1688403256471</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1688403256471</updated>
-    </task>
-    <task id="LOCAL-00021" summary="Commit">
-      <option name="closed" value="true" />
-      <created>1688481871224</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1688481871224</updated>
     </task>
     <task id="LOCAL-00022" summary="Commit">
       <option name="closed" value="true" />
@@ -648,7 +631,23 @@
       <option name="project" value="LOCAL" />
       <updated>1696688286692</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="Commit">
+      <option name="closed" value="true" />
+      <created>1696776467152</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1696776467152</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Commit">
+      <option name="closed" value="true" />
+      <created>1696776711053</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1696776711053</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
