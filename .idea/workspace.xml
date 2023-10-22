@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8578538c-2d67-481a-a12d-f42eb8b2d50c" name="Changes" comment="Commit">
-      <change afterPath="$PROJECT_DIR$/JS/DOM/DOM Exercises/DOM-6/Exercise_6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/DOM/DOM Exercises/DOM-6/Functions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/DOM/DOM Exercises/DOM-6/Index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/DOM/DOM Exercises/DOM-6/Types.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/BOM/BOM Exercises/BOM-0/exercise_0.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS/BOM/BOM Exercises/BOM-0/exercise_0.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -270,7 +265,8 @@
       <workItem from="1696683439057" duration="914000" />
       <workItem from="1696770383599" duration="6277000" />
       <workItem from="1697271192593" duration="48000" />
-      <workItem from="1697271252665" duration="14180000" />
+      <workItem from="1697271252665" duration="14652000" />
+      <workItem from="1697360836550" duration="2200000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1685205257777</created>
@@ -390,14 +386,6 @@
       <option name="presentableId" value="LOCAL-00017" />
       <option name="project" value="LOCAL" />
       <updated>1687625764322</updated>
-    </task>
-    <task id="LOCAL-00022" summary="Commit">
-      <option name="closed" value="true" />
-      <created>1688482075949</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1688482075949</updated>
     </task>
     <task id="LOCAL-00023" summary="Commit">
       <option name="closed" value="true" />
@@ -647,7 +635,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696776711053</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="Commit">
+      <option name="closed" value="true" />
+      <created>1697294411996</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1697294411997</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Promises1</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        .exercise-display{
+            background-color: darkgray;
+            border: 1px solid darkgray;
+            padding: 10px;
+            overflow: hidden;
+        }
+        p{
+            margin: unset;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="exercise-display my-3">
+
+    </div>
+</div>
+
+<script>
+
+    const image = 'https://upload.wikimedia.org/wikipedia/commons/b/b2/Eagle_nebula_pillars.jpg';
+    const promise = fetch(image);
+    console.log(promise);
+
+    // Creazione di un'oggetto che espone 2 metodi (start e unset), non visibile al mondo esterno.
+    const LoadingEffect = function (elmDisplay, operation){
+        const p = document.createElement('p');
+        p.setAttribute('class', 'loading-effect');
+        p.innerHTML = `Attendere ${operation}`;
+
+        this.start = () => {
+            elmDisplay.append(p);
+            this.interval = setInterval(() => {
+                p.innerHTML += '.';
+            }, 10);
+        }
+        this.unset = () => {
+            elmDisplay.removeChild(p);
+            clearInterval(this.interval);
+        }
+    }
+    const div = document.querySelector('.exercise-display');
+    const loadingEffect = new LoadingEffect(div, 'scraicamento in corso');
+    const blobLoadingEffect = new LoadingEffect(div, 'lettura in corso');
+    loadingEffect.start();
+
+    // PROMISE
+
+    promise
+        .then((response) => {
+
+            // Dopo la fine della chiamata
+
+        console.log(response);
+        if (response.status !== 200){
+            throw new Error('Response ko');
+        }
+        let p = document.createElement('p');
+        p.innerHTML = `HTTP status code: ${response.status}`;
+        div.append(p);
+
+            loadingEffect.unset();
+
+            const blob = response.blob();
+
+            blobLoadingEffect.start();
+
+            return blob;
+    })
+        .then((blob) => {
+
+            // Dopo la fine della lettura dello stream di un blob
+
+            const imageObjectURL = URL.createObjectURL(blob);
+            const imageElm = document.createElement('img');
+            div.append(imageElm);
+            imageElm.src = imageObjectURL;
+            blobLoadingEffect.unset();
+        })
+        .catch((error) => {
+
+            // In caso di errore di ogni promise
+
+            alert(error.message);
+            loadingEffect.unset();
+            blobLoadingEffect.unset();
+        })
+        .finally(() => {
+        // Alla fine
+    })
+
+</script>
+
+</body>
+</html>
