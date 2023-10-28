@@ -26,5 +26,30 @@
     </div>
 </div>
 
+<script>
+
+    const randomPromise = function (timeToWait) {
+
+        return new Promise((resolve, reject) => {
+            const t = setTimeout(() => {
+                resolve(timeToWait);
+                clearTimeout(t);
+
+            }, timeToWait);
+        });
+    }
+
+    const promise1 = randomPromise(1000);
+    const promise2 = randomPromise(500);
+    const promises = [promise1, promise2];
+
+    Promise.all(promises).then((result) => {
+        result.forEach((time) => {
+            console.log(`I waited for ${time}ms`);
+        });
+    })
+
+</script>
+
 </body>
 </html>
