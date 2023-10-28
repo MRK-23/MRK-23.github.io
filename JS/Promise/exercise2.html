@@ -15,7 +15,12 @@
         p{
             margin: unset;
         }
-
+        .all-status-message{
+            color: red;
+        }
+        .race-status-message{
+            color: green;
+        }
     </style>
 </head>
 <body>
@@ -28,25 +33,91 @@
 
 <script>
 
-    const randomPromise = function (timeToWait) {
+    const div = document.querySelector('.exercise-display');
+
+    const randomPromise = function (index) {
+
+        const timeToWait = Math.round(Math.random() * 5000);
 
         return new Promise((resolve, reject) => {
             const t = setTimeout(() => {
+                if (timeToWait < 100){
+                    reject('Time to wait too low!!!');
+                    return;
+                }
                 resolve(timeToWait);
+                const alert = document.createElement('p');
+                alert.innerHTML = `resolved <strong>${index}</strong> after <strong>${timeToWait/1000}</strong›s`;
+                div.appendChild(alert);
                 clearTimeout(t);
-
             }, timeToWait);
         });
     }
 
-    const promise1 = randomPromise(1000);
-    const promise2 = randomPromise(500);
-    const promises = [promise1, promise2];
+    const LoadingEffect = function (elmDisplay, operation){
+        const p = document.createElement('p');
+        p.setAttribute('class', 'loading-effect');
+        p.innerHTML = `Attendere ${operation}`;
+        let disposed = false;
 
-    Promise.all(promises).then((result) => {
-        result.forEach((time) => {
-            console.log(`I waited for ${time}ms`);
-        });
+        this.start = () => {
+            disposed = false;
+            elmDisplay.append(p);
+            this.interval = setInterval(() => {
+                p.innerHTML += '.';
+            }, 10);
+        }
+        this.unset = () => {
+            if (!disposed){
+                elmDisplay.removeChild(p);
+                clearInterval(this.interval);
+                disposed = true;
+            }
+        }
+    }
+
+    const lf = new LoadingEffect(div, 'Randomizing');
+    lf.start();
+
+    const promises = [];
+    for (let i=0; i<10; i++){
+        promises.push(randomPromise(1))
+    }
+    
+    function allFinished(p) {
+        lf.unset();
+        const alert = document.createElement('p');
+        alert.setAttribute('class', 'all-status-message');
+        alert.innerHTML = `<strong>Promise ${p} finisched </strong>`;
+        div.appendChild(alert);
+    }
+
+    function firstFinished(p) {
+        lf.unset();
+        const alert = document.createElement('p');
+        alert.setAttribute('class', 'race-status-message');
+        alert.innerHTML = `<strong>Promise ${p} finisched </strong>`;
+        div.appendChild(alert);
+    }
+
+    Promise.all(promises).then(() => {
+        allFinished('ALL');
+    }).catch((e) => {
+        alert(e);
+    })
+
+    Promise.allSettled(promises).then(() => {
+        allFinished('ALL-SETTLED');
+    })
+
+    Promise.race(promises).then(() => {
+        firstFinished('RACE');
+    })
+
+    Promise.any(promises).then(() => {
+        firstFinished('ANY');
+    }).catch((e) => {
+        alert(e);
     })
 
 </script>
