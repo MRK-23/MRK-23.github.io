@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8578538c-2d67-481a-a12d-f42eb8b2d50c" name="Changes" comment="Commit">
-      <change afterPath="$PROJECT_DIR$/JS/Promise/link-with-exercise2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/DOM/JSON/JSON1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/Promise/link-with-exercise2.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS/Promise/link-exercise2.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -273,7 +274,8 @@
       <workItem from="1698484056735" duration="1192000" />
       <workItem from="1698491066814" duration="4853000" />
       <workItem from="1698584956057" duration="2362000" />
-      <workItem from="1698842995116" duration="2738000" />
+      <workItem from="1698842995116" duration="2964000" />
+      <workItem from="1698932135072" duration="7771000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1685205257777</created>
@@ -393,14 +395,6 @@
       <option name="presentableId" value="LOCAL-00017" />
       <option name="project" value="LOCAL" />
       <updated>1687625764322</updated>
-    </task>
-    <task id="LOCAL-00029" summary="Commit">
-      <option name="closed" value="true" />
-      <created>1691079496378</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1691079496378</updated>
     </task>
     <task id="LOCAL-00030" summary="Commit">
       <option name="closed" value="true" />
@@ -650,7 +644,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698596437450</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="Commit">
+      <option name="closed" value="true" />
+      <created>1698847686898</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1698847686898</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
