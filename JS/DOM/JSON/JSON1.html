@@ -84,6 +84,32 @@
 
 <script>
 
+  //ESEMPIO DI MOCK: creazione di una finta Promise per ridurre i tempi di attesa derivanti della chiamata a un servizio remoto.
+  // Usata anche nelle UniteTest
+
+ /* async function mockGetAirQualityData(url){
+
+    const sensor_71550 = '[{}]';
+    const sensor_71551 = '[{}]';
+
+    return new Promise((resolve, reject) => {
+      if (url.includes('71550')){
+        const p = JSON.parse('sensor_71550');
+        resolve(p);
+        return;
+      }
+      if (url.includes('71551')){
+        const p = JSON.parse('sensor_71551');
+        resolve(p);
+        return;
+      }
+
+      reject(new Error('id not found'));
+
+    })
+
+  }*/
+
   async function getAirQualityData(url) {
     const response = await fetch(url);
     const status = response.ok
@@ -99,11 +125,46 @@
   ];
 
   const p = Promise.all(promises);
-  p.then(promisesResult => {
-    promisesResult[0].map((singleResult, index) => {
-      console.log(singleResult);
-    })
-  })
+
+  function mapToAirQualityData(promisesResult) {
+
+    let data = {
+      dataSnapshots: [],
+      location: {
+        lat: 0,
+        lng: 0
+      }
+    }
+
+      const firstResult = promisesResult[0];
+      const secondResult = promisesResult[1];
+      const location = firstResult[0].location;
+      data.location.lat = location.latitude;
+      data.location.lng = location.longitude;
+      data.location.country = location.country;
+      data.location.placeid = location.id;
+
+      if (promisesResult[0] instanceof Array) {
+        data.dataSnapshots = firstResult.map((singleResult, index) => {
+          const values = [...singleResult.sensorsdatavalues, ...secondResult[index].sensorsdatavalues];
+          const timeStamp = singleResult.timestamp;
+
+          return {
+            values,
+            timeStamp
+          }
+        });
+      }
+      showData(data);
+  }
+
+  p.then(mapToAirQualityData);
+
+  function showData(data) {
+    //
+  }
+
+
 
 </script>
 
