@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8578538c-2d67-481a-a12d-f42eb8b2d50c" name="Changes" comment="Commit">
-      <change afterPath="$PROJECT_DIR$/JS/TS/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/typescript/bin/tsc" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/typescript/bin/tsc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/typescript/bin/tsserver" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/typescript/bin/tsserver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/typescript/lib/tsserver.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/typescript/lib/tsserver.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/typescript/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/typescript/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,11 +83,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/JS/TS" />
       <recent name="$PROJECT_DIR$/JS" />
       <recent name="$PROJECT_DIR$/JS/DOM/DOM Exercises" />
       <recent name="$PROJECT_DIR$/JS/BOM/BOM Exercises/BOM-0" />
-      <recent name="$PROJECT_DIR$/JS/DOM/DOM Exercises/DOM-0" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.exercise_4.html">
@@ -276,7 +278,7 @@
       <workItem from="1698842995116" duration="2964000" />
       <workItem from="1698932135072" duration="8201000" />
       <workItem from="1699018323994" duration="6481000" />
-      <workItem from="1699609923651" duration="2215000" />
+      <workItem from="1699609923651" duration="2964000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1685205257777</created>
@@ -396,14 +398,6 @@
       <option name="presentableId" value="LOCAL-00017" />
       <option name="project" value="LOCAL" />
       <updated>1687625764322</updated>
-    </task>
-    <task id="LOCAL-00032" summary="Commit">
-      <option name="closed" value="true" />
-      <created>1692200695955</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1692200695955</updated>
     </task>
     <task id="LOCAL-00033" summary="Commit">
       <option name="closed" value="true" />
@@ -653,7 +647,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699029124748</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="Commit">
+      <option name="closed" value="true" />
+      <created>1699612607696</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1699612607696</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
