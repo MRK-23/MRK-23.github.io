@@ -136,17 +136,17 @@
       }
     }
 
-      const firstResult = promisesResult[0];
-      const secondResult = promisesResult[1];
-      const location = firstResult[0].location;
-      data.location.lat = location.latitude;
-      data.location.lng = location.longitude;
-      data.location.country = location.country;
-      data.location.placeid = location.id;
+      const firstApiResponse = promisesResult[0];
+      const secondApiResponse = promisesResult[1];
+      const responseLocation = firstApiResponse[0].location;
+      data.location.lat = responseLocation.latitude;
+      data.location.lng = responseLocation.longitude;
+      data.location.country = responseLocation.country;
+      data.location.placeid = responseLocation.id;
 
       if (promisesResult[0] instanceof Array) {
-        data.dataSnapshots = firstResult.map((singleResult, index) => {
-          const values = [...singleResult.sensorsdatavalues, ...secondResult[index].sensorsdatavalues];
+        data.dataSnapshots = firstApiResponse.map((singleResult, index) => {
+          const values = [...singleResult.sensorsdatavalues, ...secondApiResponse[index].sensorsdatavalues];
           const timeStamp = singleResult.timestamp;
 
           return {
