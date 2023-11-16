@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8578538c-2d67-481a-a12d-f42eb8b2d50c" name="Changes" comment="Commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="8578538c-2d67-481a-a12d-f42eb8b2d50c" name="Changes" comment="Commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,11 +78,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/JS/TS" />
       <recent name="$PROJECT_DIR$/JS" />
-      <recent name="$PROJECT_DIR$/JS/DOM/DOM Exercises" />
-      <recent name="$PROJECT_DIR$/JS/BOM/BOM Exercises/BOM-0" />
+      <recent name="$PROJECT_DIR$/.." />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$USER_HOME$/developer/WebstormProjects" />
+      <recent name="$PROJECT_DIR$/JS/TS" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.exercise_4.html">
@@ -285,6 +283,7 @@
       <workItem from="1700149918053" duration="749000" />
       <workItem from="1700150842456" duration="225000" />
       <workItem from="1700153748815" duration="34000" />
+      <workItem from="1700155244303" duration="823000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1685205257777</created>
@@ -404,22 +403,6 @@
       <option name="presentableId" value="LOCAL-00017" />
       <option name="project" value="LOCAL" />
       <updated>1687625764322</updated>
-    </task>
-    <task id="LOCAL-00041" summary="Commit">
-      <option name="closed" value="true" />
-      <created>1694971011860</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1694971011860</updated>
-    </task>
-    <task id="LOCAL-00042" summary="Commit">
-      <option name="closed" value="true" />
-      <created>1694973016513</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1694973016513</updated>
     </task>
     <task id="LOCAL-00043" summary="Commit">
       <option name="closed" value="true" />
@@ -661,7 +644,23 @@
       <option name="project" value="LOCAL" />
       <updated>1700151017281</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="Commit">
+      <option name="closed" value="true" />
+      <created>1700155873190</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1700155873190</updated>
+    </task>
+    <task id="LOCAL-00074" summary="Commit">
+      <option name="closed" value="true" />
+      <created>1700155993589</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1700155993590</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
